@@ -1,6 +1,6 @@
 = uploadify_rails3
 
-Description goes here.
+A Rails 3 gem for uploadify
 
 == Contributing to uploadify_rails3
  

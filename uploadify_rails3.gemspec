@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{uploadify_rails3}
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mateo Murphy"]
-  s.date = %q{2011-01-25}
-  s.description = %q{TODO: longer description of your gem}
+  s.date = %q{2011-01-26}
+  s.description = %q{A Rails 3 gem for uploadify}
   s.email = %q{mateo.murphy@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -19,19 +19,29 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "lib/flash_session_cookie_middleware.rb",
+    "lib/tasks.rake",
     "lib/uploadify_rails3.rb",
+    "lib/uploadify_rails_helper.rb",
+    "public/images/cancel.png",
+    "public/javascripts/uploadify/jquery.uploadify.v2.1.4.min.js",
+    "public/javascripts/uploadify/swfobject.js",
+    "public/javascripts/uploadify/uploadify.swf",
+    "public/javascripts/uploadify/uploadify_rails3.js",
     "test/helper.rb",
-    "test/test_uploadify_rails3.rb"
+    "test/test_uploadify_rails3.rb",
+    "uploadify_rails3.gemspec"
   ]
   s.homepage = %q{http://github.com/mateomurphy/uploadify_rails3}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{A Rails 3 gem for uploadify}
   s.test_files = [
     "test/helper.rb",
     "test/test_uploadify_rails3.rb"
